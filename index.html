@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <body>
+    <p id="p1">At the top</p>
+    <br>
+    <br>
+    <p id="p2">Near the middle</p>
+    <br>
+    <br>
+    <h1 id="p3">Bigger middle</h1>
+    <br>
+    <img id="hello" src="./images/hello-world.png">
+    <input type="button" value="Hide image" onclick="document.getElementById('hello').style.visibility='hidden'">
+    <input type="button" value="Show image" onclick="document.getElementById('hello').style.visibility='visible'">
+    <br>
+    <p id="p4">bottom text</p>
+
+    <script>
+      document.getElementById("p1").style.color = "blue";
+      document.getElementById("p2").style.color = "green";
+      document.getElementById("p3").style.color = "red";
+      document.getElementById("p4").style.color = "yellow";
+    </script>
+
+  </body>
+</html>
